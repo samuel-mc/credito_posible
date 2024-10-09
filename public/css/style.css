@@ -77,9 +77,25 @@ html {
     text-decoration: none;
 }
 
+.hero__sections {
+    padding: 80px 200px;
+}
+
+.hero__sections--first {
+    margin-bottom: 80px;
+}
+
 @media(max-width: 575px) {
     .home__hero {
         grid-template-columns: 1fr;
+    }
+
+    .hero__sections {
+        padding: 24px;
+    }
+    
+    .hero__sections--first {
+        margin-bottom: 12px;
     }
 }
 
@@ -91,6 +107,16 @@ html {
 
     #conoceMasHero {
         bottom: 56%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .hero__sections {
+        padding: 32px 48px;
+    }
+    
+    .hero__sections--first {
+        margin-bottom: 32px;
     }
 }
 

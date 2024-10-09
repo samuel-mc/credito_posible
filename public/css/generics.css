@@ -119,6 +119,11 @@
 .bg--white-input {
     background-color: var(--white-input);
 }
+
+.bg--green {
+    background-color: var(--primary-green);
+}
+
 .btn {
     border-radius: 10px;
     padding: 2% 5%;

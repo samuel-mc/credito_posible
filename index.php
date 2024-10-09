@@ -9,7 +9,11 @@ define('__ROOT__', "http://localhost/credito_posible");
 
 
 Flight::route('/', function () {
-    Flight::render('index.php', array('title' => 'Home'));
+    Flight::render('index.php', array('title' => 'Inicio'));
+});
+
+Flight::route('/nosotros', function () {
+    Flight::render('about.php', array('title' => 'Acerca de nosotros'));
 });
 
 #404
