@@ -223,6 +223,11 @@
     margin: 0 auto;
 }
 
+.mw--1024 {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .mw--1440 {
     max-width: 1440px;
     margin: 0 auto;

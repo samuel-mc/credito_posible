@@ -30,7 +30,7 @@
         <div class="col-md-6 p-0">
             <img src="<?php echo __ROOT__; ?>/public/img/home/conoce.png" alt="hero" class="w-100">
         </div>
-        <div class="col-md-6 bg--grey-cp">
+        <div class="col-md-6 bg--grey-cp d-flex align-items-center">
             <div class="p-5">
                 <h3 class="text--lg">Conoce al mejor equipo para comprar un <span class="text--green">inmueble</span></h3>
                 <p class="text--sm text--grey my-4">
@@ -41,6 +41,28 @@
                         Conoce más
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="mw--1024">
+        <h3 class="text--lg text-center my-5">Ofrecemos servicios que garantizan tu éxito.</h3>
+        <div class="row p-3 p-md-5">
+            <div class="col-sm-4 col-lg-2">
+                <h4 class="text--green text--xl">1830+</h4>
+                <p class="text--sm text--grey">Asesorías personalizadas</p>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <h4 class="text--green text--xl">834+</h4>
+                <p class="text--sm text--grey">Créditos aprobados</p>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <h4 class="text--green text--xl">7</h4>
+                <p class="text--sm text--grey">Días de tiempo de procesamiento</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="text--sm text--grey">
+                 Con un equipo de expertos comprometidos y una metodología orientada al éxito, nos aseguramos de que cada proyecto que emprendemos no solo cumpla, sino que supere tus expectativas.
+                </p>
             </div>
         </div>
     </section>
