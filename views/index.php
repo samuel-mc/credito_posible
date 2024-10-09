@@ -44,8 +44,8 @@
             </div>
         </div>
     </section>
-    <section class="mw--1024">
-        <h3 class="text--lg text-center my-5">Ofrecemos servicios que garantizan tu éxito.</h3>
+    <section class="mw--1024 my-4">
+        <h3 class="text--lg text-center">Ofrecemos servicios que garantizan tu éxito.</h3>
         <div class="row p-3 p-md-5">
             <div class="col-sm-4 col-lg-2">
                 <h4 class="text--green text--xl">1830+</h4>
@@ -61,10 +61,54 @@
             </div>
             <div class="col-lg-6">
                 <p class="text--sm text--grey">
-                 Con un equipo de expertos comprometidos y una metodología orientada al éxito, nos aseguramos de que cada proyecto que emprendemos no solo cumpla, sino que supere tus expectativas.
+                    Con un equipo de expertos comprometidos y una metodología orientada al éxito, nos aseguramos de que cada proyecto que emprendemos no solo cumpla, sino que supere tus expectativas.
                 </p>
             </div>
         </div>
     </section>
+    <section class="mw--1024 my-4">
+        <h3 class="text--lg my-4">Productos hipotecarios</h3>
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/splide1.png" alt="hipotecario1" class="w-100">
+                        <h4 class="text--md my-2">Cambio de hipoteca</h4>
+                        <p class="text--grey text--sm">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...</p>
+                        <a href="<?php echo __ROOT__; ?>/contacto" class="a--primary-green">
+                            Contáctanos &#10132;
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/splide2.png" alt="hipotecario2" class="w-100">
+                        <h4 class="text--md my-2">Liquidez</h4>
+                        <p class="text--grey text--sm">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...</p>
+                        <a href="<?php echo __ROOT__; ?>/contacto" class="a--primary-green">
+                            Contáctanos &#10132;
+                        </a>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/splide3.png" alt="hipotecario2" class="w-100">
+                        <h4 class="text--md my-2">Adquisición de terreno</h4>
+                        <p class="text--grey text--sm">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas. Quis autem vel eum iure...</p>
+                        <a href="<?php echo __ROOT__; ?>/contacto" class="a--primary-green">
+                            Contáctanos &#10132;
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
 </main>
+<script src="<?php echo __ROOT__; ?>/public/js/splide/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        new Splide('.splide', {
+            perPage: 3,
+            gap: '1rem',
+            perMove: 1,
+            type: 'loop',
+        }).mount();
+    });
+</script>
 <?php include 'partials/footer.php'; ?>
