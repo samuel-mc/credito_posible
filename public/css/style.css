@@ -33,6 +33,61 @@ html {
     transition: transform 0.6s ease-in-out;
 }
 
+.home__hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#conoceMasHero {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-green);
+    padding: 12px;
+    border-radius: 50%;
+    border: 8px solid white;
+    aspect-ratio: 1/1;
+
+}
+
+#conoceMasHero > a {
+    align-items: center;
+    aspect-ratio: 1/1;
+    background-color: var(--primary-green);
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 12px;
+    transition: background-color 0.6s ease-in-out;
+    transition: color 0.6s ease-in-out;
+    transition: border 0.6s ease-in-out;
+}
+
+#conoceMasHero > a:hover {
+    background-color: white;
+    color: var(--primary-green);
+    border: 1px solid var(--primary-green);
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+@media(max-width: 768px) {
+    .home__hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+    }
+
+    #conoceMasHero {
+        bottom: 56%;
+    }
+}
+
 @keyframes appear {
     0% {
         opacity: 0;
