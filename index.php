@@ -16,6 +16,18 @@ Flight::route('/nosotros', function () {
     Flight::render('about.php', array('title' => 'Acerca de nosotros'));
 });
 
+Flight::route('/productos', function () {
+    Flight::render('productos.php', array('title' => 'Productos hipotecarios'));
+});
+
+Flight::route('/faq', function () {
+    Flight::render('faq.php', array('title' => 'Preguntas frecuentes'));
+});
+
+Flight::route('/solicitud', function () {
+    Flight::render('solicitud.php', array('title' => 'Solicitud de credito'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
