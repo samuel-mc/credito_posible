@@ -7,6 +7,7 @@
     /* Colores nuevos */
     --primary-green: #006D4E;
     --secondary-green: #006d4e7e;
+    --grey-cp: ##F7F7F7;
 
     --grey: #637381;
     --light-grey: #D4D2E3;
@@ -53,6 +54,10 @@
     color: white;
 }
 
+.text--green {
+    color: var(--primary-green);
+}
+
 .text--grey {
     color: var(--grey);
 }
@@ -93,6 +98,10 @@
     color: #000;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+}
+
+.bg--grey-cp {
+    background-color: #F7F7F7;
 }
 
 .bg--darkBlue {
@@ -197,6 +206,11 @@
 
 .w--480 {
     width: 480px;
+}
+
+.mw--200 {
+    max-width: 200px;
+    margin: 0 auto;
 }
 
 .mw--280 {

@@ -2,10 +2,12 @@
 ?>
 
 <header class="bg-white py-3 mx-5 my-3 d-none d-lg-block">
-    <div class="mw--1440 d-flex justify-content-between align-items-center">
-        <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
-        <nav>
-            <ul class="d-flex text--sm w-100 list--unstyled">
+    <div class="mw--1440 row align-items-center">
+        <div class="col-md-2">
+            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="w-100 mw--280">
+        </div>
+        <nav class="col-md-8 mx-auto">
+            <ul class="d-flex justify-content-center text--sm w-100 list--unstyled">
                 <li class="mx-2"><a class="<?php echo $title == 'Home' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Home</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Acerca de nosotros' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>nosotros">Acerca de nosotros</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Productos hipotecarios' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>servicios">Productos hipotecarios</a></li>
@@ -15,15 +17,17 @@
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>/contacto" class="btn--primary">
-            Contáctanos
-        </a>
+        <div class="col-md-2">
+            <a href="<?php echo __ROOT__; ?>/contacto" class="btn--primary">
+                Contáctanos
+            </a>
+        </div>
     </div>
 </header>
 
-<header class="bg--lightBlue p-2 d-lg-none w-100">
+<header class="p-2 d-lg-none w-100">
     <div class="d-flex justify-content-between w-100">
-        <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="">
+        <img src="<?php echo __ROOT__; ?>/public/img/logo.png" style="width: 200px;">
         <button class="btn btn--primary btn--square px-3 " onclick="toggleShowMenu()">
             <i class="fa-solid fa-bars"></i>
         </button>
@@ -32,7 +36,7 @@
 <nav class="h--screen notShowed position-fixed z-10 bg-white w-100 py-4" id="mobileMenu" style="top: 0;">
     <div class="d-flex flex-column justify-content-between px-4 py-8 h-100">
         <div class="d-flex justify-content-between p-2">
-            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="w-20">
+            <img src="<?php echo __ROOT__; ?>/public/img/logo.png">
             <button class="btn btn-danger btn--square px-3" onclick="toggleShowMenu()">
                 <i class="fa-solid fa-x text--white"></i>
             </button>
