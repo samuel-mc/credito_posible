@@ -280,6 +280,11 @@
 .hr--r{
     border-right: 1px solid var(--dark-blue)
 }
+hr.custom-hr {
+    background-color: var(--grey);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
 .btnSlider{
     background-color: #DBDBDB !important; 
@@ -293,6 +298,16 @@
     border-radius: 10px;
 }
 
+input {
+    border: none; /* Elimina todos los bordes */
+    border-bottom: 1px solid var(--grey); /* Agrega borde solo en la parte inferior */
+    border-radius: 0; /* Elimina los bordes redondeados */
+    box-shadow: none; /* Elimina cualquier sombra */
+}
+input:focus {
+    outline: none; /* Elimina el borde azul de enfoque por defecto */
+    box-shadow: none; /* Evita que se genere la sombra al enfocar */
+}
 
 
 @media (max-width: 1400px) {
