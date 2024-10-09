@@ -77,7 +77,13 @@ html {
     text-decoration: none;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 575px) {
+    .home__hero {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
     .home__hero {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr;
