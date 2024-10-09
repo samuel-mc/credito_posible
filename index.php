@@ -22,11 +22,11 @@ Flight::route('/productos', function () {
 });
 
 Flight::route('/faq', function () {
-    Flight::render('faq.php', array('title' => 'Preguntas frecuentes'));
+    Flight::render('faq.php', array('title' => 'FAQs'));
 });
 
 Flight::route('/solicitud', function () {
-    Flight::render('solicitud.php', array('title' => 'Solicitud de credito'));
+    Flight::render('solicitud.php', array('title' => 'Solicitud de crédito'));
 });
 
 #404
