@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-    <section class="mw--1024 my-4">
+    <section class="mw--1024 my-4 p-3">
         <h3 class="text--lg my-4">Productos hipotecarios</h3>
         <section class="splide" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
@@ -99,6 +99,40 @@
             </div>
         </section>
     </section>
+    <section class="container-fluid bg--grey-cp py-4">
+        <div class="container row mx-auto">
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h3 class="text--lg">Beneficios de crédito posible</h3>
+                <p class="text--sm text--grey">Estos beneficios te permiten acceder a financiamiento de manera simple y efectiva, impulsando tu crecimiento personal o empresarial.</p>
+            </div>
+            <div class="col-md-6 row">
+                <div class="col-md-6">
+                    <div class="bg-white rounded p-2 my-4">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/bene1.png" alt="beneficio1" class="w-2">
+                        <h4 class="text--md my-3">Sin cargos ocultos</h4>
+                        <p class="text--grey text--sm">Transparencia total en nuestras condiciones, sin cargos ocultos ni sorpresas.</p>
+                    </div>
+                    <div class="bg-white rounded p-2 my-2 mb-5">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/bene2.png" alt="beneficio1" class="w-2">
+                        <h4 class="text--md my-3">Experiencia y confiabilidad</h4>
+                        <p class="text--grey text--sm">Más de 20 años de experiencia en el mercado nos respaldan, con miles de clientes satisfechos.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-white rounded p-2 my-4 mt-5">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/bene3.png" alt="beneficio1" class="w-2">
+                        <h4 class="text--md my-3">Proceso rápido y sencillo</h4>
+                        <p class="text--grey text--sm">Nuestro proceso de solicitud es rápido y fácil, con aprobaciones en tan solo 7 días.</p>
+                    </div>
+                    <div class="bg-white rounded p-2 my-2 mb-5">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/bene4.png" alt="beneficio1" class="w-2">
+                        <h4 class="text--md my-3">Seguridad y privacidad</h4>
+                        <p class="text--grey text--sm"> Protección total de su información personal y financiera con nuestras avanzadas medidas de seguridad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <script src="<?php echo __ROOT__; ?>/public/js/splide/splide.min.js"></script>
 <script>
@@ -108,6 +142,14 @@
             gap: '1rem',
             perMove: 1,
             type: 'loop',
+            breakpoints: {
+                768: {
+                    perPage: 2,
+                },
+                576: {
+                    perPage: 1,
+                }
+            }
         }).mount();
     });
 </script>
