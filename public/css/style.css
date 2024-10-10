@@ -93,6 +93,40 @@ html {
 
 }
 
+.accordion-button {
+    font-weight: bold;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    /* Cambiar color de fondo */
+    color: #006D4E;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Transiciones suaves */
+    border: none
+}
+
+.accordion-item {
+    margin: 20px 0px !important;
+    border: 1px solid #ccc !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(360deg);
+    background-image: url("<?php echo __ROOT__; ?>/public/img/minus-solid.svg");
+    color: #006D4E;
+    background-size: auto;
+    background-position: center;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("<?php echo __ROOT__; ?>/public/img/plus-solid.svg");
+    background-size: auto;
+    background-position: center;
+}
+
 @media(max-width: 575px) {
     .home__hero {
         grid-template-columns: 1fr;

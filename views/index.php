@@ -133,6 +133,10 @@
             </div>
         </div>
     </section>
+    <div class="container">
+        <?php include 'components/faqs.php'; ?>
+    </div>
+    <?php include 'components/necesitas.php'; ?>
 </main>
 <script src="<?php echo __ROOT__; ?>/public/js/splide/splide.min.js"></script>
 <script>
