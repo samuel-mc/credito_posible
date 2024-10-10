@@ -8,7 +8,7 @@
         </div>
         <nav class="col-md-8 mx-auto">
             <ul class="d-flex justify-content-center text--sm w-100 list--unstyled">
-                <li class="mx-2"><a class="<?php echo $title == 'Home' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Home</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Inicio' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Home</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Acerca de nosotros' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/nosotros">Acerca de nosotros</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Productos hipotecarios' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/productos">Productos hipotecarios</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'FAQs' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/faq">FAQs</a></li>
@@ -44,7 +44,7 @@
         <div class="my-10">
             <nav>
                 <ul class="d-flex flex-column text--md w-100 list--unstyled">
-                    <li class="mx-2"><a class="<?php echo $title == 'Home' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Home</a></li>
+                    <li class="mx-2"><a class="<?php echo $title == 'Inicio' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>">Inicio</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'Acerca de nosotros' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/nosotros">Acerca de nosotros</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'Productos hipotecarios' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/servicios">Productos hipotecarios</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'FAQs' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/faq">FAQs</a></li>

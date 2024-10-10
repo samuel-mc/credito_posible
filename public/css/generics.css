@@ -66,6 +66,14 @@
     color: var(--dark-blue);
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 .a--white {
     color: white;
@@ -225,6 +233,16 @@
 
 .mw-400 {
     max-width: 400px;
+    margin: 0 auto;
+}
+
+.mw--720 {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.mw--920 {
+    max-width: 920px;
     margin: 0 auto;
 }
 

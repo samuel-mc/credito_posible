@@ -40,15 +40,15 @@ html {
 }
 
 #conoceMasHero {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    aspect-ratio: 1/1;
     background-color: var(--primary-green);
-    padding: 12px;
     border-radius: 50%;
     border: 8px solid white;
-    aspect-ratio: 1/1;
-
+    left: 50%;
+    padding: 12px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: fit-content;
 }
 
 #conoceMasHero > a {
@@ -83,6 +83,14 @@ html {
 
 .hero__sections--first {
     margin-bottom: 80px;
+}
+
+#greenRect {
+    background-color: var(--primary-green);
+    width: 100px;
+    height: 8px;
+    display: block;
+
 }
 
 @media(max-width: 575px) {
