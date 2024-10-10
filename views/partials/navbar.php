@@ -13,7 +13,7 @@
                 <li class="mx-2"><a class="<?php echo $title == 'Productos hipotecarios' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/productos">Productos hipotecarios</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'FAQs' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/faq">FAQs</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Solicitud de crédito' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/solicitud">Solicitud de crédito</a></li>
-                <li class="mx-2"><a class="<?php echo $title == 'Contacto' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Contacto' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/contacto">Contacto</a></li>
             </ul>
         </nav>
 
@@ -49,7 +49,7 @@
                     <li class="mx-2"><a class="<?php echo $title == 'Productos hipotecarios' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/productos">Productos hipotecarios</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'FAQs' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/faq">FAQs</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'Solicitud de crédito' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/solicitud">Solicitud de crédito</a></li>
-                    <li class="mx-2"><a class="<?php echo $title == 'Contacto' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
+                    <li class="mx-2"><a class="<?php echo $title == 'Contacto' ? 'a--primary-green text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/contacto">Contacto</a></li>
                 </ul>
             </nav>
         </div>

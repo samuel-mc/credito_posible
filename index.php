@@ -29,6 +29,10 @@ Flight::route('/solicitud', function () {
     Flight::render('solicitud.php', array('title' => 'Solicitud de crédito'));
 });
 
+Flight::route('/contacto', function () {
+    Flight::render('contact.php', array('title' => 'Contacto'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
