@@ -30,7 +30,7 @@
     </section>
 
 
-    <section class="mw--1440 row my-0">
+    <section class="mw--1440 row my-0" id="cambioHipoteca">
         <div class="col-md-7 bg--grey-cp d-flex align-items-center">
             <div class="p-5">
                 <h3 class="text--lg">Servicio de Cambio de Hipoteca</h3>
@@ -49,7 +49,7 @@
         </div>        
     </section>
 
-    <section class="mw--1440 row my-0">
+    <section class="mw--1440 row my-0" id="liquidez">
         <div class="col-md-5 p-0">
             <img src="<?php echo __ROOT__; ?>/public/img/productos/2.png" alt="hero" class="w-100">
         </div>
@@ -68,7 +68,7 @@
         </div>
     </section>
 
-    <section class="mw--1440 row my-0">
+    <section class="mw--1440 row my-0" id="adquisicion">
 
         <div class="col-md-7 bg--grey-cp d-flex align-items-center">
             <div class="p-5">
@@ -88,7 +88,7 @@
         </div>        
     </section>
 
-    <section class="mw--1440 row my-0">
+    <section class="mw--1440 row my-0" id="terreno">
         <div class="col-md-5 p-0">
             <img src="<?php echo __ROOT__; ?>/public/img/productos/4.png" alt="hero" class="w-100">
         </div>
@@ -127,7 +127,7 @@
         </div>        
     </section>
 
-    <section class="mw--1440 row my-0">
+    <section class="mw--1440 row my-0" id="preventa">
         <div class="col-md-5 p-0">
             <img src="<?php echo __ROOT__; ?>/public/img/productos/6.png" alt="hero" class="w-100">
         </div>        <div class="col-md-7 d-flex align-items-center">
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <section class="mw--1440 row my-0">
+    <section class="mw--1440 row my-0" id="construccion">
         <div class="col-md-7 bg--grey-cp d-flex align-items-center">
             <div class="p-5">
                 <h3 class="text--lg">Construcción</h3>

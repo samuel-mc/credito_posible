@@ -99,7 +99,7 @@
             </div>
         </section>
     </section>
-    <section class="container-fluid bg--grey-cp py-4">
+    <section class="container-fluid bg--grey-cp py-4" id="beneficios">
         <div class="container row mx-auto">
             <div class="col-md-6 d-flex flex-column justify-content-center">
                 <h3 class="text--lg">Beneficios de crédito posible</h3>

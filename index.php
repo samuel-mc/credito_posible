@@ -8,6 +8,9 @@ Flight::set('flight.log_errors', true);
 define('__ROOT__', "http://localhost/credito_posible");
 // define('__ROOT__', "http://localhost/proyectos/credito_posible");
 
+Flight::route('/inicio', function () {
+    Flight::redirect('/');
+});
 
 Flight::route('/', function () {
     Flight::render('index.php', array('title' => 'Inicio'));

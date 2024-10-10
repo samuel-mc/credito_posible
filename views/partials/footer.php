@@ -41,31 +41,31 @@
             </div>
         </div>
         <div class="col-md-3">
-            <h3 class="text--green text--md">Inicio</h3>
+            <h3 class="text--green text--md"><a class="a--primary-green" href="<?php echo __ROOT__; ?>/inicio">Inicio</a></h3>
             <ul class="list--unstyled">
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>">Acerca</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>nosotros">Productos</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>servicios">Beneficios</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>multimedia">Pregunstas frecuentes</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/nosotros">Acerca</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/productos">Productos</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/#beneficios">Beneficios</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/faq">Preguntas frecuentes</a></li>
             </ul>
         </div>
         <div class="col-md-3">
             <h3 class="text--green text--md">Productos</h3>
             <ul class="list--unstyled">
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>">Cambio de hipoteca</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>nosotros">Liquidez</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>servicios">Adquisición de terreno</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>multimedia">Terreno + construcción</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>multimedia">Preventa</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>multimedia">Construcción</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/productos#cambioHipoteca">Cambio de hipoteca</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/productos#liquidez">Liquidez</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/productos#adquisicion">Adquisición de terreno</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/productos#terreno">Terreno + construcción</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/productos#preventa">Preventa</a></li>
+                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>/productos#construccion">Construcción</a></li>
             </ul>
         </div>
         <div class="col-md-3">
             <h3 class="text--green text--md">Información de contacto</h3>
             <ul class="list--unstyled">
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>">gpenunuri@socasesores.com</a></li>
+                <li class="my-3"><a href="mailto:gpenunuri@socasesores.com" class="a--grey">gpenunuri@socasesores.com</a></li>
                 <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>nosotros">66 41 17 11 89</a></li>
-                <li class="my-3"><a class="a--grey" href="<?php echo __ROOT__; ?>servicios">Blvd. Agua Caliente 9955 507 CALETE 22044 Tijuana Baja California</a></li>
+                <li class="my-3"><a class="a--grey" target="_blank" href="https://www.google.com.mx/maps/place/Blvd.+Agua+Caliente+9955,+Calete,+22044+Tijuana,+B.C./@32.5231075,-117.0283418,14.23z/data=!4m6!3m5!1s0x80d9484795f1103f:0xffe931f50a93bcb0!8m2!3d32.5188455!4d-117.0187859!16s%2Fg%2F11j2nzzv_r?entry=ttu&g_ep=EgoyMDI0MTAwNy4xIKXMDSoASAFQAw%3D%3D">Blvd. Agua Caliente 9955 507 CALETE 22044 Tijuana Baja California</a></li>
             </ul>
         </div>
     </div>
